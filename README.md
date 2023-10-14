@@ -50,3 +50,5 @@ Turn off Internet, e.g. putting the computer into "airplane" mode. The problem m
 CREDITS
 
 pdfcrop comes from the texlive distro
+PDFCROP 1.42, 2023/04/15 - Copyright (c) 2002-2023 by Heiko Oberdiek, Oberdiek Package Support Group.
+https://github.com/ho-tex/pdfcrop/blob/main/LICENCE
