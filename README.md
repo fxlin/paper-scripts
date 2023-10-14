@@ -1,3 +1,24 @@
+First time 
+
+## Windows
+
+Go to your paper root dir
+
+mkdir scripts
+cd scripts
+set "URL=https://github.com/fxlin/paper-scripts/releases/latest/download/scripts.zip"
+set "TEMP_FILE=scripts.zip"
+curl -L -o "%TEMP_FILE%" "%URL%"
+tar -xvf "%TEMP_FILE%"
+del /Q scripts.zip
+
+
+Later, to update scripts...
+
+Go under "/scripts" and click "ZZZX-UPDATE-SCRIPTS.bat"
+
+More....
+
 
 Right now, only Windows is supported. 
 
@@ -18,3 +39,6 @@ Turn off Internet, e.g. putting the computer into "airplane" mode. The problem m
 
 
 
+CREDITS
+
+pdfcrop comes from the texlive distro
